@@ -25,6 +25,6 @@ R CMD INSTALL LBRAT
 
 ```
 
-##Usage instructions##
+## Usage instructions
 
 All functions and examples in the LBRAT are available in the manual (https://github.com/ZWang-Lab/LBRAT/LBRAT-manual.pdf).
