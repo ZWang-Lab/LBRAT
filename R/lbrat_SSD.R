@@ -220,13 +220,7 @@ SNPs_maps<-function(bimfile, rsID){
 
 
 cat_addpos<-function(bimfile, result){
-
-  # n_occur <- data.frame(table(result$SNP.name));
 	result$SNP.name<-as.character(result$SNP.name);
-	# result$GENE.name<-as.character(result$GENE.name);
-        # duplicated_snp<-as.character(n_occur$Var1[n_occur$Freq>1])
-        # rna_gene<-c('AC072062.1', 'RP11-325B23.2')
-        # result = result[-which(result$GENE.name %in% rna_gene & result$SNP.name %in% duplicated_snp),] 
 	rsID<-unique(result$SNP.name);
 	pos <-SNPs_maps(bimfile, rsID);
 	# result<-result[which(result$Pval.retro<0.05),]
