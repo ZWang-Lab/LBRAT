@@ -1,6 +1,6 @@
 # LBRAT
 
-LSKAT is an R program that performs retrospective association testing for longitudinal binary traits in population samples. 
+LBRAT is an R program that performs retrospective association testing for longitudinal binary traits in population samples. 
 
 
 ## Installation Instructions:
@@ -13,7 +13,7 @@ LSKAT is an R program that performs retrospective association testing for longit
     
 3. PLINK 1.0 or 1.9 (https://www.cog-genomics.org/plink2)
 
-Please install the required R package before you install LSKAT package. Please install the **LBRAT** as following steps.
+Please install the required R package before you install LBRAT package. Please install the **LBRAT** as following steps.
 
  
 ### Install LBRAT on LUNIX or Mac OSX
