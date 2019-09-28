@@ -25,6 +25,13 @@ R CMD INSTALL LBRAT
 
 ```
 
+### Install LBRAT in R
+```
+library(devtools)
+devtools::install_github(repo = 'ZWang-Lab/LBRAT')
+
+```
+
 ## Usage instructions
 
 All functions and examples in the LBRAT are available in the manual (https://github.com/ZWang-Lab/LBRAT/LBRAT-manual.pdf).
