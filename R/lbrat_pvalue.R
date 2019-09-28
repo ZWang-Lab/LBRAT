@@ -96,7 +96,7 @@ lbrat_test <-function(lbrat.est, G, impute.method='fixed', GRM = NULL)
     score = c(t(G)%*%tran_res);
     std.pro<-sqrt(diag(V.pro));std.retro<-sqrt(V.retro)
     score.pro<-score/std.pro;score.retro<-score/std.retro
-    pval.pro<-pnorm(score.pro, lower.tail = F);pval.retro<-pnorm(score.retro, lower.tail=F)
+    pval.pro<-2*pnorm(abs(score.pro), lower.tail = F);pval.retro<-2*pnorm(abs(score.retro), lower.tail=F)
 
     result<-cbind(score.pro,score.retro, pval.pro,  pval.retro, maf)
     rownames(result)=snp.names;
