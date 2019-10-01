@@ -24,6 +24,13 @@ git clone https://github.com/ZWang-Lab/LBRAT.git
 R CMD INSTALL LBRAT
 
 ```
+Alternatively, one can install it in R using following code.
+### Install LBRAT in R
+```
+library(devtools)
+devtools::install_github(repo = 'ZWang-Lab/LBRAT')
+
+```
 
 ## Usage instructions
 
