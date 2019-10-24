@@ -38,10 +38,7 @@ lbrat_simu<-function(n.sample=1000, n.time=5, par=list(),
     }
     if(!onlypower){
         snp.mat <- simu_snp(n.sample, snp.count);
-    }else{
-        snp.mat<- matrix(,nrow = n.sample);
     }
-
     #### Ascertainment sampling #####
 
     if(oversampling =="random")
@@ -105,7 +102,10 @@ lbrat_simu<-function(n.sample=1000, n.time=5, par=list(),
     y.time <- cbind(rep(1:nrow(phe$y), each =n.time), rep(1:n.time, nrow(phe$y)))
     # cov.long <- phe$cov;
     causal.snp <- phe$causal.snp
-    snp.mat <- cbind(snp.mat, causal.snp);
+    if (!onlypower){
+    snp.mat <- cbind(snp.mat, causal.snp);}else{
+    snp.mat  <- causal.snp
+    }
     colnames(snp.mat)[c(ncol(snp.mat)-1, ncol(snp.mat))] <- paste("CAUSAL",1:2, sep="")
     # rownames(cov.long) = NULL
 
