@@ -98,7 +98,7 @@ lbrat_test <-function(lbrat.est, G, impute.method='fixed', GRM = NULL)
     score.pro<-score/std.pro;score.retro<-score/std.retro
     pval.pro<-pchisq(score.pro^2,df = 1, lower.tail = F);pval.retro<-pchisq(score.retro^2,df = 1, lower.tail=F)
 
-    result<-cbind(score.pro,score.retro, pval.pro,  pval.retro, maf)
+    result<-cbind(score.pro^2,score.retro^2, pval.pro,  pval.retro, maf)
     rownames(result)=snp.names;
     result <- as.data.frame(result)
     return(result)
