@@ -34,7 +34,7 @@ devtools::install_github(repo = 'ZWang-Lab/LBRAT')
 
 ## Usage instructions:
 
-Details for functions and examples in the LBRAT are available in the manual (https://github.com/ZWang-Lab/LBRAT/LBRAT-manual.pdf) and in the vignettes(https://zwang-lab.github.io/LBRAT/articles/L-BRAT.html).
+Details for functions and examples in the LBRAT are available in the manual (https://github.com/ZWang-Lab/LBRAT/blob/master/LBRAT-manual.pdf) and in the vignettes(https://zwang-lab.github.io/LBRAT/articles/L-BRAT.html).
 
 ## Citations:
 
