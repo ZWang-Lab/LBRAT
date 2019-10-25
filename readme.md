@@ -13,7 +13,7 @@ LBRAT is an R program that performs retrospective association testing for longit
   
 3. PLINK 1.0 or 1.9 (https://www.cog-genomics.org/plink2)
 
-Please install the required R package before you install LBRAT package. Please install the **LBRAT** as following steps.
+Install the required R package before you install LBRAT package. Install the **LBRAT** using the following steps.
 
 
 ### Install LBRAT on LUNIX or Mac OSX
@@ -24,7 +24,7 @@ git clone https://github.com/ZWang-Lab/LBRAT.git
 R CMD INSTALL LBRAT
 
 ```
-Alternatively, one can install it in R using following code.
+Alternatively, one can install it in R using the following code.
 ### Install LBRAT in R
 ```
 library(devtools)
