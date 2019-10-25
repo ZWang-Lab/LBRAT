@@ -3,12 +3,19 @@ Type: Package
 Title: Retrospective Association Testing for Longitudinal Binary Outcomes
 Version: 0.0.0.9000
 Date: 2019-01-21
-Authors@R: person("Weimiao", "Wu", email = "weimiao.wu@yale.edu",
-                  role = c("aut", "cre")) 
+Authors@R: as.person(c(
+    "Weimiao Wu <weimiao.wu@yale.edu> [aut, cre]", 
+    "Zuoheng Wang <zuoheng.wang@yale.edu> [aut]"
+  ))
 Description: Retrospective Association Testing for Longitudinal Binary Outcomes.
 License: GPL (>= 2)
 Depends: R (>= 2.12.1), nleqslv, lme4, geepack, mvtnorm, data.table, plyr
 Packaged: 2019-02-26
 Encoding: UTF-8
 Date/Publication: 2019-03-01
-
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/ZWang-Lab/LBRAT
+BugReports: https://github.com/ZWang-Lab/LBRAT/issues
