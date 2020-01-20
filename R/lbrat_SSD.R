@@ -19,7 +19,7 @@ lbrat.SSD.OneSet_SetIndex = function(SSD.INFO, SetIndex, lbrat_est.obj){
     msg<-sprintf("Error to get genotypes of %s: %s",SetID, err.msg)
     stop(msg)
   }
-  re<-cat_test(lbrat_est.obj, G)
+  re<-lbrat_test(lbrat_est.obj, G)
 
   return(re)
 }
