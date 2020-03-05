@@ -38,4 +38,4 @@ Details for functions and examples in the LBRAT are available in the manual (htt
 
 ## Citations:
 
-Wu W., Wang Z., Xu K., Zhang X., Amei A., Gelernter J., Zhao H., Justice A.C., Wang Z., (2019) Retrospective association analysis of longitudinal binary traits identiﬁes important loci and pathways in cocaine use. _Genetics_, in press.
+Wu, W., Wang, Z., Xu, K., Zhang, X., Amei, A., Gelernter, J., ... & Wang, Z. (2019). Retrospective Association Analysis of Longitudinal Binary Traits Identifies Important Loci and Pathways in Cocaine Use. Genetics, 213(4), 1225-1236.(https://doi.org/10.1101/628180)
